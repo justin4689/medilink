@@ -288,7 +288,7 @@ header {
   left: -20px;
   width: 100px;
   height: 100px;
-  background: #0A9C0A;
+  background: #0a9c0a;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -332,7 +332,7 @@ header {
   gap: 50px;
   align-items: center;
   margin: 0 auto;
-  
+
   max-width: 1300px;
   padding-top: 50px;
 }
@@ -343,13 +343,11 @@ header {
   justify-content: flex-start;
   gap: 25px;
   width: 50%;
-
-
 }
 
 .how-its-work-content-right {
   display: flex;
-  overflow: hidden ;
+  overflow: hidden;
   width: 50%;
 }
 
@@ -361,13 +359,12 @@ header {
 .how-its-work-content-left-item-icon {
   width: 100px;
   height: 50px;
-  background: #0A9C0A;
+  background: #0a9c0a;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-
 }
 
 .how-its-work-content-left-item .icon-wrapper svg {
@@ -381,7 +378,6 @@ header {
   gap: 5px;
 }
 
-
 .how-its-work-content-right-image {
   width: 60%;
   height: auto;
@@ -394,13 +390,12 @@ header {
   top: 170px;
   left: 20px;
   padding: 10px;
-  background: #0A9C0A;
+  background: #0a9c0a;
   font-size: 10px;
 
   color: white;
   border-radius: 10px;
 }
-
 
 .how-its-work-content-right-float-bagde-right {
   position: absolute;
@@ -414,10 +409,15 @@ header {
   border-radius: 10px;
 }
 
-
-
 /***ADVANTAGES***/
 
+.advantages {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 80px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
 
 .advantages-container {
   display: flex;
@@ -428,11 +428,9 @@ header {
 
 .advantages-content {
   display: grid;
-  grid-template-columns: repeat(3 ,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
-  margin: 0 auto;
-  
-  max-width: 1300px;
+
   padding-top: 50px;
 }
 
@@ -442,9 +440,8 @@ header {
   gap: 25px;
 }
 
-
 .advantages-content-card {
-  width: 443px;
+  width: 395px;
   height: 220px;
   background: #ffffff;
   border-radius: 10px;
@@ -465,4 +462,144 @@ header {
 .advantages-content-card p {
   font-size: 14px;
   line-height: 1.6;
+}
+
+.advantages-content-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/***DOWNLOAD APP***/
+
+.download-app {
+  padding: 80px;
+  margin-bottom: 80px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.download-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.download-app-content {
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 25px;
+
+  padding-top: 50px;
+}
+
+.download-app-content-left {
+  width: 45%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.download-app-content-right {
+  width: 55%;
+}
+
+.download-app-content-right-title {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.download-app-content-right-store {
+  display: flex;
+  gap: 20px;
+}
+.download-app-content-right-paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 200px;
+
+}
+
+
+/* =====================
+   FOOTER
+   ===================== */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px 30px;
+  background-color: #00254d;
+  color: #fff;
+  gap: 20px;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-header > div:first-child {
+  max-width: 420px;
+}
+
+.footer-header p {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.9;
+}
+
+.footer-header h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.footer-header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-header a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+.footer-header a .lab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.footer-header a:hover,
+.footer-header a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer hr {
+  width: 100%;
+  max-width: 1200px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.footer > p {
+  font-size: 13px;
+  opacity: 0.9;
 }
